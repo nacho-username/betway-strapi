@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.navigation"
+    },
+    "homepageOffer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promos.offer-box"
+    }
+  }
+}
